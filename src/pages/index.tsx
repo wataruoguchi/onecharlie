@@ -16,9 +16,6 @@ const IndexPage = () => (
     </div>
     <ul>
       <li>
-        <Link to="/page-2/">Go to page 2</Link>
-      </li>
-      <li>
         <Link to="/blogPosts/">Go to blog posts (Source: Contentful)</Link>
       </li>
     </ul>

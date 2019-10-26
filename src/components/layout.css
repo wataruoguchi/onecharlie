@@ -1,4 +1,5 @@
 html {
+  height: 100%;
   font-family: sans-serif, 112.5%/1.45em georgia, serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -8,10 +9,13 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #03111d;
+  color: #ccc;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'Noto Serif JP', serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -60,11 +64,15 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: #ccc;
+  text-decoration: none;
 }
 
 a:active,
 a:hover {
   outline-width: 0;
+  color: #aaa;
+  text-decoration: none;
 }
 
 abbr[title] {

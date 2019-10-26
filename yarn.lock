@@ -1151,6 +1151,11 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
+"@openfonts/big-shoulders-display_all@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@openfonts/big-shoulders-display_all/-/big-shoulders-display_all-1.0.0.tgz#914de528d4f8a494d090e51926b9671cecb1f511"
+  integrity sha512-8Hxgj3vUNh74LlwXSsq40BAio0xJnpUu0PGZ4g+3qHYEuQAm5WZqlYeaRndhKBuQfO1+ebhg48lcEQlJWzJQVg==
+
 "@pieh/friendly-errors-webpack-plugin@1.7.0-chalk-2":
   version "1.7.0-chalk-2"
   resolved "https://registry.yarnpkg.com/@pieh/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-1.7.0-chalk-2.tgz#2e9da9d3ade9d18d013333eb408c457d04eabac0"
@@ -12760,6 +12765,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typeface-noto-serif-jp@^0.0.75:
+  version "0.0.75"
+  resolved "https://registry.yarnpkg.com/typeface-noto-serif-jp/-/typeface-noto-serif-jp-0.0.75.tgz#85ab87f4e688318fecd3aae59def6582969b48f9"
+  integrity sha512-c00Mrf55JrmQkI/44jaCekzgHRz3WWcGX4uNiWazornnxuaOEcIMZIk92+qVoLPTj62OLlegVVxJhZaaGXCmUA==
 
 typescript@^3.6.4:
   version "3.6.4"
