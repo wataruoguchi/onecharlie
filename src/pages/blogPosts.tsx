@@ -23,7 +23,7 @@ type Props = {
   };
 };
 
-const BlogPosts = ({ data }: Props) => {
+const BlogPosts: React.FC<Props> = ({ data }: Props) => {
   const documents: {
     id: string;
     title: string;

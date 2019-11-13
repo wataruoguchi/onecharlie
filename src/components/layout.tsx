@@ -13,7 +13,8 @@ const secondFont = {
 type Props = {
   children: React.ReactNode;
 };
-const Layout = ({ children }: Props) => {
+
+const Layout: React.FC<Props> = ({ children }: Props) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
