@@ -21,7 +21,12 @@ type Props = {
   title: string;
 };
 
-const SEO: React.FC<Props> = ({ description, lang, meta, title }: Props) => {
+const SEO: React.FC<Props> = ({
+  description = '',
+  lang = 'en',
+  meta = [],
+  title,
+}: Props) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -83,12 +88,6 @@ const SEO: React.FC<Props> = ({ description, lang, meta, title }: Props) => {
       meta={defaultMeta.concat(propMeta)}
     />
   );
-};
-
-SEO.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``,
 };
 
 export default SEO;
